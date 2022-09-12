@@ -1,14 +1,13 @@
-# Judul Aplikasi
+# Aplikasi Pencarian Coffee shop terdekat
 
 ## Deskripsi Masalah
-- Sulitnya warga desa mengetahui tempat2 strategis di desanya
+- Sulitnya masyarakat mencari coffeshop yang dekat dengan lokasi dan cocok di kantong
 
 ## Deskripsi Solusi
-- Membuat aplikasi Geo tagging untuk tempat2 di desa berbasis web GIS
-
+- Membuat aplikasi Kodek (Kopi Dekat)
 ## Use Case
-- User warga mampu tagging tempat dengan kategori tertentu beserta foto
-- User pemerintah mampu melihat sebaran tempat di desa berdasarkan kategori
+- User masyarakat dapat mengetahui harga dan status coffee shop
+- User pemilik coffee shop dapat mengubah status coffee shop ketika penuh 
 
 ## Struktur Data
 
@@ -16,7 +15,7 @@
 Nama Atribut | Tipe Data | Contoh
 ---|---|---
 UUID | string | ooj73849r734mf34r3
-Nama tempat | string | Indomaret Jalan Cibiru 24
+Nama tempat | string | Kopi Rumwala 
 Kategori | int | 4
 🌏 Koordinat | poin | [106.03794 -6.39284693]
 🌏 Area | polygon | [[106.03794 -6.39284693], [106.03794 -6.39284693], [106.03794 -6.39284693]]
@@ -28,4 +27,3 @@ UUID | string | ooj73849r734mf34r3
 Nama user | string | dahmun
 
 ## Mockup UX
-![Alur aplikasi](mockup.png)
